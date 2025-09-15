@@ -1,3 +1,5 @@
+#added comments to suppress warnings
+
 import os
 import warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress TensorFlow info/warnings
