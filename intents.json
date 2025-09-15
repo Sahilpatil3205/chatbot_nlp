@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening", "howdy", "hi there"],
+      "responses": ["Greetings! How may I assist you today?", "Hello! I am DODO, your assistant.", "Hi there! Ready to chat?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "take care", "catch you later", "farewell"],
+      "responses": ["Farewell! Wishing you a splendid day ahead.", "Goodbye! Have a great day!", "See you soon! Stay awesome."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx", "appreciate it", "many thanks"],
+      "responses": ["You're most welcome.", "My pleasure!", "Always happy to help!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who created you", "who made you", "your developer", "who programmed you"],
+      "responses": ["I was meticulously developed as an NLP project using Python.", "A talented developer built me using Python and NLP libraries."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "what is your age", "when were you created"],
+      "responses": ["I am timeless in nature, but my programming is recent 🤖.", "I exist in the digital realm, ageless and evolving."]
+    },
+    {
+      "tag": "hobby",
+      "patterns": ["what do you like", "your hobby", "what do you enjoy", "what is your favorite thing"],
+      "responses": ["My primary purpose is to converse intelligently and learn from interactions.", "I enjoy engaging in conversations and sharing knowledge."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather", "how's the weather today", "tell me the weather", "is it raining today"],
+      "responses": ["I am not connected to real-world data yet, but I hope the weather is pleasant for you!"]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["tell me a joke", "make me laugh", "do you know any funny story", "joke"],
+      "responses": ["Why did the computer show up at work late? It had a hard drive!", "I would tell you a joke about UDP… but you might not get it."]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["motivate me", "say something inspiring", "inspire me", "give me advice"],
+      "responses": ["Believe in yourself, every small step counts.", "Every day is a chance to improve and learn something new."]
+    },
+    {
+      "tag": "fun_facts",
+      "patterns": ["tell me a fun fact", "interesting fact", "give me trivia", "share knowledge"],
+      "responses": [
+        "Did you know? Honey never spoils and can last thousands of years!",
+        "Sharks existed before trees!",
+        "Octopuses have three hearts and blue blood!"
+      ]
+    },
+    {
+      "tag": "personal_info",
+      "patterns": ["what is your name", "who are you", "introduce yourself", "your identity"],
+      "responses": ["I am DODO, your intelligent chatbot! I am here to chat, inform, and have fun with you."]
+    },
+    {
+      "tag": "random_questions",
+      "patterns": [
+        "what is the meaning of life", 
+        "can you predict the stock market", 
+        "do you like pizza", 
+        "explain relativity",
+        "tell me about quantum physics"
+      ],
+      "responses": ["Apologies, I am currently not trained for that query 😅. I am a simple program named DODO and not connected to real-world information yet, but I am continuously evolving to become more intelligent."]
+    }
+  ]
+}
